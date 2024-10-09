@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+  <meta charset="UTF-8">
+    <title>Morat - Fan Page </title>
+    <style>
+
+        html, body {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Oswald', sans-serif;
+            background: #000000;
+        }
+
+        #header {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        #main-content-container {
+          display: flex;
+        }
+
+        #links-sidebar {
+          flex: 2;
+          background: red;
+        }
+
+        #main-content {
+          flex: 6;
+          padding: 10px 10px 10px 10px;
+          align: center;
+          color: white;
+        }
+
+        .morat_jalisco {
+          font-size: 50px;
+        }
+
+        #insta {
+          font-size: 25px;
+          color: white;
+        }
+
+        .videoimagen {
+          display: flex;
+          flex-direction: row;
+        }
+
+        #footer {
+          display: flex;
+          margin-top: auto;
+          display: flex;
+          background: #ffffff
+        }
+
+        .footer__section { flex: 1;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        #facebook {
+          margin: 5px 15px 5px 5px;
+        }
+
+        #instagram {
+          margin: 5px 15px 5px 0px;
+        }
+
+        #twitter {
+          margin: 5px 15px 5px 0px;
+       }
+
+        #tiktok {
+          margin: 5px 15px 5px 0px;
+        }
+
+        #colkie {
+          margin: 5px 15px 5px 0px;
+        }
+    </style>
+</head>
+
+<body>
+<header id="header">
+    <a href="index.html"><img src="morat_logo.png" alt="Logo de Morat" width="250" height="150"></a>
+</header>
+
+<div id="main-content-container">
+    <aside id="links-sidebar"><center>
+        <a href="quienes_son.html"><img src="quienes_son.png" width="220" height="80"></a>
+        <p><a href="discografia.html"><img src="discografia.png" width="200" height="80"></a></p>
+        <p><a href="fotos.html"><img src="fotos.png" width="200" height="80"></a></p>
+        <p><a href="fans.html"><img src="fans_blanco.png" width="200" height="80"></a></p>
+    </center></aside>
+    <section id="main-content">
+      <center>
+        <h1 class="morat_jalisco"> Morat Jalisco </h1>
+        <p id="insta">
+          <img src="instagram_blanco.png" width="60" height="60"><a href="https://www.instagram.com/moratjalisco/"> @moratjalisco </a>
+        </p>
+        <p class="videoimagen">
+        <video width="500" height="600" controls>
+          <source src="morat_reunion.mp4" type="video/mp4">
+        </video>
+        <img src="morat_jalisco_logo.jpeg" width="500" height="500">
+      </center>
+    </section>
+</div>
+
+<footer id="footer">
+    <div class="footer__section">
+      <h2>Redes Sociales</h2>
+      <p>
+        <a href="https://es-la.facebook.com/moratoficial/" target="_blank">
+          <img id="facebook" src="facebook.jpg" alt="Icono de Facebook" width="30" height="30">
+        </a>
+        <a href="https://www.instagram.com/morat/?hl=es" target="_blank">
+          <img id="instagram" src="instagram.png" alt="Icono de Instagram" width="30" height="30">
+        </a>
+        <a href="https://twitter.com/MoratBanda?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+          <img id="twitter" src="twitter.png" alt="Icono de Twitter" width="30" height="30">
+        </a>
+        <a href="https://www.tiktok.com/@moratbanda?lang=es" target="_blank">
+          <img id="tiktok" src="tiktok.png" alt="Icono de Tik Tok" width="30" height="30">
+        </a>
+        <a href="https://www.colkie.com/" target="_blank">
+          <img id="colkie" src="colkie.jpg" alt="Icono de Colkie" width="30" height="30">
+        </a>
+      </p>
+    </div>
+    <div class="footer__section">
+      <h2>Otros de mis Sitios</h2>
+        <a href="index_piano.html">
+          <img src="piano.png" alt:"Icono de piano" width="60" height="60">
+        </a>
+    </div>
+</footer>
+</body>
+</html>
